@@ -1,0 +1,31 @@
+.hidden{
+    opacity: 0;
+    transform: translateX(4rem);
+    transition: 2s;
+    /* overflow: hidden; */
+    /* display: none; */
+}
+.show{
+    opacity: 1;
+    transform: translateX(0rem);
+}
+
+.hidden-bottem{
+    opacity: 0;
+    transform: translateY(4rem);
+    transition: 2s;
+}
+.show-bottem{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.hidden-right{
+    opacity: 0;
+    transform: translateX(-4rem);
+    transition: 2s;
+}
+.show-right{
+    opacity: 1;
+    transform: translateX(0);
+}

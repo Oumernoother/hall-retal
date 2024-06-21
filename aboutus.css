@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d4af37; /* Golden color */
+  position:relative;
+  width: 100%;
+  height: 5rem;
+  border-radius: 3px;
+}
+
+.logo a {
+  color: #fff; /* White logo color */
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+}
+
+.nav-links li {
+  margin-right: 0rem;
+}
+
+.nav-links a {
+  color: #706a1a9d; /* White link color */
+  text-decoration: none;
+  transition: color 0.65s ease;
+  font-size: 25px;
+}
+
+.nav-links a:hover {
+  color: #faf8f5; /* Hover color (slightly lighter) */
+}
+.lastchild {
+  border: transparent;
+  border-radius: 10px;
+  padding: 15px;
+  font-size:1rem ;
+  color: rgb(7, 7, 7);
+  background-color: #d4af37;
+  font-weight: bold;
+  margin: 5px;
+}
+.lastchild:hover{
+  background-color: #fff;
+  transition: .8s;
+  scale: 1.02;
+}
+h1 {
+  text-align:center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 35px;
+  color: #d4af37;
+  padding: 1rem;
+}
+.p1 {
+text-align: center;
+font-size:25px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footera {
+  background: #d4af37;
+ 
+  font-size: 34px;
+  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 1rem;
+  
+}
+.pf{
+  text-decoration: none;
+  color: black;
+  font-family: 'open-sans' sans-serif ;
+}
+.footer2a {
+  background: #131310f5;
+ font-style: oblique; 
+  width: 9%;
+  height: 15rem;
+  padding: 1rem;
+}
+.flink{
+  text-decoration: none;
+  color:  #d4af37;
+  padding: 3rem;
+  
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav{
+background-color: #000;
+text-align: center;
+padding: 8px;
+}
+
+nav li{
+display: inline-block;
+margin: 5px 40px 5px 40px;
+padding: 3px;
+font-size: 40px;
+}
+/* body{
+padding: 16px;
+margin: 10px;
+background-color: #fff;
+} */
+nav li a{
+color: white;
+text-decoration: none;
+font-family: sans-serif;
+}
+.fp1{
+  text-align: center;
+  font-size: 20px;
+  padding: 1rem;
+}
+.f1{
+  background:#d4af37 ;
+  width: 99%;
+  height: 8rem;
+  text-align: center;
+  padding: 10px;
+}
+.pf1{
+  color: #0a0a0a;
+  font-size: 2.5rem;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+.footer {
+position: absolute;
+
+height: 28rem;
+width:95%;
+background: #0a0a0a;
+
+}
+
+.footer .footer-row {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 3.5rem;
+padding: 60px;
+}
+
+.footer-row .footer-col h4 {
+color: #fff;
+font-size: 1.2rem;
+font-weight: 400;
+}
+
+.footer-col .links {
+margin-top: 20px;
+}
+
+.footer-col .links li {
+list-style: none;
+margin-bottom: 10px;
+}
+
+.footer-col .links li a {
+text-decoration: none;
+color: #bfbfbf;
+}
+
+.footer-col .links li a:hover {
+color:#d4af37;
+}
+
+.footer-col p {
+margin: 20px 0;
+color: #bfbfbf;
+max-width: 300px;
+}
+
+.footer-col form {
+display: flex;
+gap: 5px;
+}
+
+.footer-col input {
+height: 40px;
+border-radius: 6px;
+background: none;
+width: 100%;
+outline: none;
+border: 1px solid #7489C6 ;
+caret-color: #fff;
+color: #fff;
+padding-left: 10px;
+}
+
+.footer-col input::placeholder {
+color: #ccc;
+}
+
+.footer-col form button {
+background: #fff;
+outline: none;
+border: none;
+padding: 10px 15px;
+border-radius: 6px;
+cursor: pointer;
+font-weight: 500;
+transition: 0.4s ease;
+}
+
+.footer-col form button:hover {
+background: #cecccc;
+}
+
+.footer-col .icons {
+display: flex;
+margin-top: 30px;
+gap: 30px;
+cursor: pointer;
+}
+
+.footer-col .icons i {
+color: #afb6c7;
+}
+
+.footer-col .icons i:hover  {
+color: #fff;
+}
+
+@media (max-width: 768px) {
+.footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  transform: none;
+  width: 100%;
+  border-radius: 0;
+}
+
+.footer .footer-row {
+  padding: 20px;
+  gap: 1rem;
+}
+
+.footer-col form {
+  display: block;
+}
+
+.footer-col form :where(input, button) {
+  width: 100%;
+}
+
+.footer-col form button {
+  margin: 10px 0 0 0;
+}
+}
+.fa-solid fa-cutlery{
+  font-weight: bold;
+}
+.dropdown{
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
